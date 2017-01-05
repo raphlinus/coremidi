@@ -1,0 +1,1657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="rustdoc">
+    <meta name="description" content="API documentation for the Rust `coremidi_sys` crate.">
+    <meta name="keywords" content="rust, rustlang, rust-lang, coremidi_sys">
+
+    <title>coremidi_sys - Rust</title>
+
+    <link rel="stylesheet" type="text/css" href="../rustdoc.css">
+    <link rel="stylesheet" type="text/css" href="../main.css">
+    
+
+    
+    
+</head>
+<body class="rustdoc">
+    <!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+    
+
+    <nav class="sidebar">
+        
+        <p class='location'></p><script>window.sidebarCurrent = {name: 'coremidi_sys', ty: 'mod', relpath: '../'};</script>
+    </nav>
+
+    <nav class="sub">
+        <form class="search-form js-only">
+            <div class="search-container">
+                <input class="search-input" name="search"
+                       autocomplete="off"
+                       placeholder="Click or press ‘S’ to search, ‘?’ for more options…"
+                       type="search">
+            </div>
+        </form>
+    </nav>
+
+    <section id='main' class="content mod">
+<h1 class='fqn'><span class='in-band'>Crate <a class='mod' href=''>coremidi_sys</a></span><span class='out-of-band'><span id='render-detail'>
+                   <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">
+                       [<span class='inner'>&#x2212;</span>]
+                   </a>
+               </span><a id='src-0' class='srclink' href='../src/coremidi_sys/lib.rs.html#1-499' title='goto source code'>[src]</a></span></h1>
+<h2 id='structs' class='section-header'><a href="#structs">Structs</a></h2>
+<table>
+                       <tr class=' module-item'>
+                           <td><a class='struct' href='struct.Struct_MIDIControlTransform.html'
+                                  title='coremidi_sys::Struct_MIDIControlTransform'>Struct_MIDIControlTransform</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='struct' href='struct.Struct_MIDIIOErrorNotification.html'
+                                  title='coremidi_sys::Struct_MIDIIOErrorNotification'>Struct_MIDIIOErrorNotification</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='struct' href='struct.Struct_MIDINotification.html'
+                                  title='coremidi_sys::Struct_MIDINotification'>Struct_MIDINotification</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='struct' href='struct.Struct_MIDIObjectAddRemoveNotification.html'
+                                  title='coremidi_sys::Struct_MIDIObjectAddRemoveNotification'>Struct_MIDIObjectAddRemoveNotification</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='struct' href='struct.Struct_MIDIObjectPropertyChangeNotification.html'
+                                  title='coremidi_sys::Struct_MIDIObjectPropertyChangeNotification'>Struct_MIDIObjectPropertyChangeNotification</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='struct' href='struct.Struct_MIDIPacket.html'
+                                  title='coremidi_sys::Struct_MIDIPacket'>Struct_MIDIPacket</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='struct' href='struct.Struct_MIDIPacketList.html'
+                                  title='coremidi_sys::Struct_MIDIPacketList'>Struct_MIDIPacketList</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='struct' href='struct.Struct_MIDISysexSendRequest.html'
+                                  title='coremidi_sys::Struct_MIDISysexSendRequest'>Struct_MIDISysexSendRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='struct' href='struct.Struct_MIDIThruConnectionEndpoint.html'
+                                  title='coremidi_sys::Struct_MIDIThruConnectionEndpoint'>Struct_MIDIThruConnectionEndpoint</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='struct' href='struct.Struct_MIDIThruConnectionParams.html'
+                                  title='coremidi_sys::Struct_MIDIThruConnectionParams'>Struct_MIDIThruConnectionParams</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='struct' href='struct.Struct_MIDITransform.html'
+                                  title='coremidi_sys::Struct_MIDITransform'>Struct_MIDITransform</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='struct' href='struct.Struct_MIDIValueMap.html'
+                                  title='coremidi_sys::Struct_MIDIValueMap'>Struct_MIDIValueMap</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr></table><h2 id='constants' class='section-header'><a href="#constants">Constants</a></h2>
+<table>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIControlType_14Bit.html'
+                                  title='coremidi_sys::kMIDIControlType_14Bit'>kMIDIControlType_14Bit</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIControlType_14BitNRPN.html'
+                                  title='coremidi_sys::kMIDIControlType_14BitNRPN'>kMIDIControlType_14BitNRPN</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIControlType_14BitRPN.html'
+                                  title='coremidi_sys::kMIDIControlType_14BitRPN'>kMIDIControlType_14BitRPN</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIControlType_7Bit.html'
+                                  title='coremidi_sys::kMIDIControlType_7Bit'>kMIDIControlType_7Bit</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIControlType_7BitNRPN.html'
+                                  title='coremidi_sys::kMIDIControlType_7BitNRPN'>kMIDIControlType_7BitNRPN</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIControlType_7BitRPN.html'
+                                  title='coremidi_sys::kMIDIControlType_7BitRPN'>kMIDIControlType_7BitRPN</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIIDNotUnique.html'
+                                  title='coremidi_sys::kMIDIIDNotUnique'>kMIDIIDNotUnique</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIInvalidClient.html'
+                                  title='coremidi_sys::kMIDIInvalidClient'>kMIDIInvalidClient</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIInvalidPort.html'
+                                  title='coremidi_sys::kMIDIInvalidPort'>kMIDIInvalidPort</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIInvalidUniqueID.html'
+                                  title='coremidi_sys::kMIDIInvalidUniqueID'>kMIDIInvalidUniqueID</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIMessageSendErr.html'
+                                  title='coremidi_sys::kMIDIMessageSendErr'>kMIDIMessageSendErr</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIMsgIOError.html'
+                                  title='coremidi_sys::kMIDIMsgIOError'>kMIDIMsgIOError</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIMsgObjectAdded.html'
+                                  title='coremidi_sys::kMIDIMsgObjectAdded'>kMIDIMsgObjectAdded</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIMsgObjectRemoved.html'
+                                  title='coremidi_sys::kMIDIMsgObjectRemoved'>kMIDIMsgObjectRemoved</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIMsgPropertyChanged.html'
+                                  title='coremidi_sys::kMIDIMsgPropertyChanged'>kMIDIMsgPropertyChanged</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIMsgSerialPortOwnerChanged.html'
+                                  title='coremidi_sys::kMIDIMsgSerialPortOwnerChanged'>kMIDIMsgSerialPortOwnerChanged</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIMsgSetupChanged.html'
+                                  title='coremidi_sys::kMIDIMsgSetupChanged'>kMIDIMsgSetupChanged</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIMsgThruConnectionsChanged.html'
+                                  title='coremidi_sys::kMIDIMsgThruConnectionsChanged'>kMIDIMsgThruConnectionsChanged</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDINoConnection.html'
+                                  title='coremidi_sys::kMIDINoConnection'>kMIDINoConnection</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDINoCurrentSetup.html'
+                                  title='coremidi_sys::kMIDINoCurrentSetup'>kMIDINoCurrentSetup</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDINotPermitted.html'
+                                  title='coremidi_sys::kMIDINotPermitted'>kMIDINotPermitted</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIObjectNotFound.html'
+                                  title='coremidi_sys::kMIDIObjectNotFound'>kMIDIObjectNotFound</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIObjectType_Destination.html'
+                                  title='coremidi_sys::kMIDIObjectType_Destination'>kMIDIObjectType_Destination</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIObjectType_Device.html'
+                                  title='coremidi_sys::kMIDIObjectType_Device'>kMIDIObjectType_Device</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIObjectType_Entity.html'
+                                  title='coremidi_sys::kMIDIObjectType_Entity'>kMIDIObjectType_Entity</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIObjectType_ExternalDestination.html'
+                                  title='coremidi_sys::kMIDIObjectType_ExternalDestination'>kMIDIObjectType_ExternalDestination</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIObjectType_ExternalDevice.html'
+                                  title='coremidi_sys::kMIDIObjectType_ExternalDevice'>kMIDIObjectType_ExternalDevice</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIObjectType_ExternalEntity.html'
+                                  title='coremidi_sys::kMIDIObjectType_ExternalEntity'>kMIDIObjectType_ExternalEntity</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIObjectType_ExternalMask.html'
+                                  title='coremidi_sys::kMIDIObjectType_ExternalMask'>kMIDIObjectType_ExternalMask</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIObjectType_ExternalSource.html'
+                                  title='coremidi_sys::kMIDIObjectType_ExternalSource'>kMIDIObjectType_ExternalSource</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIObjectType_Other.html'
+                                  title='coremidi_sys::kMIDIObjectType_Other'>kMIDIObjectType_Other</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIObjectType_Source.html'
+                                  title='coremidi_sys::kMIDIObjectType_Source'>kMIDIObjectType_Source</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIServerStartErr.html'
+                                  title='coremidi_sys::kMIDIServerStartErr'>kMIDIServerStartErr</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDISetupFormatErr.html'
+                                  title='coremidi_sys::kMIDISetupFormatErr'>kMIDISetupFormatErr</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIThruConnection_MaxEndpoints.html'
+                                  title='coremidi_sys::kMIDIThruConnection_MaxEndpoints'>kMIDIThruConnection_MaxEndpoints</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDITransform_Add.html'
+                                  title='coremidi_sys::kMIDITransform_Add'>kMIDITransform_Add</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDITransform_FilterOut.html'
+                                  title='coremidi_sys::kMIDITransform_FilterOut'>kMIDITransform_FilterOut</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDITransform_MapControl.html'
+                                  title='coremidi_sys::kMIDITransform_MapControl'>kMIDITransform_MapControl</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDITransform_MapValue.html'
+                                  title='coremidi_sys::kMIDITransform_MapValue'>kMIDITransform_MapValue</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDITransform_MaxValue.html'
+                                  title='coremidi_sys::kMIDITransform_MaxValue'>kMIDITransform_MaxValue</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDITransform_MinValue.html'
+                                  title='coremidi_sys::kMIDITransform_MinValue'>kMIDITransform_MinValue</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDITransform_None.html'
+                                  title='coremidi_sys::kMIDITransform_None'>kMIDITransform_None</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDITransform_Scale.html'
+                                  title='coremidi_sys::kMIDITransform_Scale'>kMIDITransform_Scale</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIUnknownEndpoint.html'
+                                  title='coremidi_sys::kMIDIUnknownEndpoint'>kMIDIUnknownEndpoint</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIUnknownProperty.html'
+                                  title='coremidi_sys::kMIDIUnknownProperty'>kMIDIUnknownProperty</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIWrongEndpointType.html'
+                                  title='coremidi_sys::kMIDIWrongEndpointType'>kMIDIWrongEndpointType</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIWrongPropertyType.html'
+                                  title='coremidi_sys::kMIDIWrongPropertyType'>kMIDIWrongPropertyType</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.kMIDIWrongThread.html'
+                                  title='coremidi_sys::kMIDIWrongThread'>kMIDIWrongThread</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr></table><h2 id='statics' class='section-header'><a href="#statics">Statics</a></h2>
+<table>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyAdvanceScheduleTimeMuSec.html'
+                                  title='coremidi_sys::kMIDIPropertyAdvanceScheduleTimeMuSec'>kMIDIPropertyAdvanceScheduleTimeMuSec</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyCanRoute.html'
+                                  title='coremidi_sys::kMIDIPropertyCanRoute'>kMIDIPropertyCanRoute</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyConnectionUniqueID.html'
+                                  title='coremidi_sys::kMIDIPropertyConnectionUniqueID'>kMIDIPropertyConnectionUniqueID</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyDeviceID.html'
+                                  title='coremidi_sys::kMIDIPropertyDeviceID'>kMIDIPropertyDeviceID</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyDisplayName.html'
+                                  title='coremidi_sys::kMIDIPropertyDisplayName'>kMIDIPropertyDisplayName</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyDriverDeviceEditorApp.html'
+                                  title='coremidi_sys::kMIDIPropertyDriverDeviceEditorApp'>kMIDIPropertyDriverDeviceEditorApp</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyDriverOwner.html'
+                                  title='coremidi_sys::kMIDIPropertyDriverOwner'>kMIDIPropertyDriverOwner</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyDriverVersion.html'
+                                  title='coremidi_sys::kMIDIPropertyDriverVersion'>kMIDIPropertyDriverVersion</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyFactoryPatchNameFile.html'
+                                  title='coremidi_sys::kMIDIPropertyFactoryPatchNameFile'>kMIDIPropertyFactoryPatchNameFile</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyImage.html'
+                                  title='coremidi_sys::kMIDIPropertyImage'>kMIDIPropertyImage</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyIsBroadcast.html'
+                                  title='coremidi_sys::kMIDIPropertyIsBroadcast'>kMIDIPropertyIsBroadcast</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyIsDrumMachine.html'
+                                  title='coremidi_sys::kMIDIPropertyIsDrumMachine'>kMIDIPropertyIsDrumMachine</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyIsEffectUnit.html'
+                                  title='coremidi_sys::kMIDIPropertyIsEffectUnit'>kMIDIPropertyIsEffectUnit</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyIsEmbeddedEntity.html'
+                                  title='coremidi_sys::kMIDIPropertyIsEmbeddedEntity'>kMIDIPropertyIsEmbeddedEntity</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyIsMixer.html'
+                                  title='coremidi_sys::kMIDIPropertyIsMixer'>kMIDIPropertyIsMixer</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyIsSampler.html'
+                                  title='coremidi_sys::kMIDIPropertyIsSampler'>kMIDIPropertyIsSampler</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyManufacturer.html'
+                                  title='coremidi_sys::kMIDIPropertyManufacturer'>kMIDIPropertyManufacturer</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyMaxReceiveChannels.html'
+                                  title='coremidi_sys::kMIDIPropertyMaxReceiveChannels'>kMIDIPropertyMaxReceiveChannels</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyMaxSysExSpeed.html'
+                                  title='coremidi_sys::kMIDIPropertyMaxSysExSpeed'>kMIDIPropertyMaxSysExSpeed</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyMaxTransmitChannels.html'
+                                  title='coremidi_sys::kMIDIPropertyMaxTransmitChannels'>kMIDIPropertyMaxTransmitChannels</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyModel.html'
+                                  title='coremidi_sys::kMIDIPropertyModel'>kMIDIPropertyModel</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyName.html'
+                                  title='coremidi_sys::kMIDIPropertyName'>kMIDIPropertyName</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyNameConfiguration.html'
+                                  title='coremidi_sys::kMIDIPropertyNameConfiguration'>kMIDIPropertyNameConfiguration</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyOffline.html'
+                                  title='coremidi_sys::kMIDIPropertyOffline'>kMIDIPropertyOffline</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyPanDisruptsStereo.html'
+                                  title='coremidi_sys::kMIDIPropertyPanDisruptsStereo'>kMIDIPropertyPanDisruptsStereo</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyPrivate.html'
+                                  title='coremidi_sys::kMIDIPropertyPrivate'>kMIDIPropertyPrivate</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyReceiveChannels.html'
+                                  title='coremidi_sys::kMIDIPropertyReceiveChannels'>kMIDIPropertyReceiveChannels</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyReceivesBankSelectLSB.html'
+                                  title='coremidi_sys::kMIDIPropertyReceivesBankSelectLSB'>kMIDIPropertyReceivesBankSelectLSB</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyReceivesBankSelectMSB.html'
+                                  title='coremidi_sys::kMIDIPropertyReceivesBankSelectMSB'>kMIDIPropertyReceivesBankSelectMSB</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyReceivesClock.html'
+                                  title='coremidi_sys::kMIDIPropertyReceivesClock'>kMIDIPropertyReceivesClock</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyReceivesMTC.html'
+                                  title='coremidi_sys::kMIDIPropertyReceivesMTC'>kMIDIPropertyReceivesMTC</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyReceivesNotes.html'
+                                  title='coremidi_sys::kMIDIPropertyReceivesNotes'>kMIDIPropertyReceivesNotes</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyReceivesProgramChanges.html'
+                                  title='coremidi_sys::kMIDIPropertyReceivesProgramChanges'>kMIDIPropertyReceivesProgramChanges</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertySingleRealtimeEntity.html'
+                                  title='coremidi_sys::kMIDIPropertySingleRealtimeEntity'>kMIDIPropertySingleRealtimeEntity</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertySupportsGeneralMIDI.html'
+                                  title='coremidi_sys::kMIDIPropertySupportsGeneralMIDI'>kMIDIPropertySupportsGeneralMIDI</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertySupportsMMC.html'
+                                  title='coremidi_sys::kMIDIPropertySupportsMMC'>kMIDIPropertySupportsMMC</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertySupportsShowControl.html'
+                                  title='coremidi_sys::kMIDIPropertySupportsShowControl'>kMIDIPropertySupportsShowControl</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyTransmitChannels.html'
+                                  title='coremidi_sys::kMIDIPropertyTransmitChannels'>kMIDIPropertyTransmitChannels</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyTransmitsBankSelectLSB.html'
+                                  title='coremidi_sys::kMIDIPropertyTransmitsBankSelectLSB'>kMIDIPropertyTransmitsBankSelectLSB</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyTransmitsBankSelectMSB.html'
+                                  title='coremidi_sys::kMIDIPropertyTransmitsBankSelectMSB'>kMIDIPropertyTransmitsBankSelectMSB</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyTransmitsClock.html'
+                                  title='coremidi_sys::kMIDIPropertyTransmitsClock'>kMIDIPropertyTransmitsClock</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyTransmitsMTC.html'
+                                  title='coremidi_sys::kMIDIPropertyTransmitsMTC'>kMIDIPropertyTransmitsMTC</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyTransmitsNotes.html'
+                                  title='coremidi_sys::kMIDIPropertyTransmitsNotes'>kMIDIPropertyTransmitsNotes</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyTransmitsProgramChanges.html'
+                                  title='coremidi_sys::kMIDIPropertyTransmitsProgramChanges'>kMIDIPropertyTransmitsProgramChanges</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyUniqueID.html'
+                                  title='coremidi_sys::kMIDIPropertyUniqueID'>kMIDIPropertyUniqueID</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='static' href='static.kMIDIPropertyUserPatchNameFile.html'
+                                  title='coremidi_sys::kMIDIPropertyUserPatchNameFile'>kMIDIPropertyUserPatchNameFile</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr></table><h2 id='functions' class='section-header'><a href="#functions">Functions</a></h2>
+<table>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIClientCreate.html'
+                                  title='coremidi_sys::MIDIClientCreate'>MIDIClientCreate</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIClientDispose.html'
+                                  title='coremidi_sys::MIDIClientDispose'>MIDIClientDispose</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIDestinationCreate.html'
+                                  title='coremidi_sys::MIDIDestinationCreate'>MIDIDestinationCreate</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIDeviceAddEntity.html'
+                                  title='coremidi_sys::MIDIDeviceAddEntity'>MIDIDeviceAddEntity</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIDeviceGetEntity.html'
+                                  title='coremidi_sys::MIDIDeviceGetEntity'>MIDIDeviceGetEntity</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIDeviceGetNumberOfEntities.html'
+                                  title='coremidi_sys::MIDIDeviceGetNumberOfEntities'>MIDIDeviceGetNumberOfEntities</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIDeviceRemoveEntity.html'
+                                  title='coremidi_sys::MIDIDeviceRemoveEntity'>MIDIDeviceRemoveEntity</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIEndpointDispose.html'
+                                  title='coremidi_sys::MIDIEndpointDispose'>MIDIEndpointDispose</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIEndpointGetEntity.html'
+                                  title='coremidi_sys::MIDIEndpointGetEntity'>MIDIEndpointGetEntity</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIEntityAddOrRemoveEndpoints.html'
+                                  title='coremidi_sys::MIDIEntityAddOrRemoveEndpoints'>MIDIEntityAddOrRemoveEndpoints</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIEntityGetDestination.html'
+                                  title='coremidi_sys::MIDIEntityGetDestination'>MIDIEntityGetDestination</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIEntityGetDevice.html'
+                                  title='coremidi_sys::MIDIEntityGetDevice'>MIDIEntityGetDevice</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIEntityGetNumberOfDestinations.html'
+                                  title='coremidi_sys::MIDIEntityGetNumberOfDestinations'>MIDIEntityGetNumberOfDestinations</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIEntityGetNumberOfSources.html'
+                                  title='coremidi_sys::MIDIEntityGetNumberOfSources'>MIDIEntityGetNumberOfSources</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIEntityGetSource.html'
+                                  title='coremidi_sys::MIDIEntityGetSource'>MIDIEntityGetSource</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIExternalDeviceCreate.html'
+                                  title='coremidi_sys::MIDIExternalDeviceCreate'>MIDIExternalDeviceCreate</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIFlushOutput.html'
+                                  title='coremidi_sys::MIDIFlushOutput'>MIDIFlushOutput</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIGetDestination.html'
+                                  title='coremidi_sys::MIDIGetDestination'>MIDIGetDestination</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIGetDevice.html'
+                                  title='coremidi_sys::MIDIGetDevice'>MIDIGetDevice</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIGetExternalDevice.html'
+                                  title='coremidi_sys::MIDIGetExternalDevice'>MIDIGetExternalDevice</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIGetNumberOfDestinations.html'
+                                  title='coremidi_sys::MIDIGetNumberOfDestinations'>MIDIGetNumberOfDestinations</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIGetNumberOfDevices.html'
+                                  title='coremidi_sys::MIDIGetNumberOfDevices'>MIDIGetNumberOfDevices</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIGetNumberOfExternalDevices.html'
+                                  title='coremidi_sys::MIDIGetNumberOfExternalDevices'>MIDIGetNumberOfExternalDevices</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIGetNumberOfSources.html'
+                                  title='coremidi_sys::MIDIGetNumberOfSources'>MIDIGetNumberOfSources</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIGetSerialPortDrivers.html'
+                                  title='coremidi_sys::MIDIGetSerialPortDrivers'>MIDIGetSerialPortDrivers</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIGetSerialPortOwner.html'
+                                  title='coremidi_sys::MIDIGetSerialPortOwner'>MIDIGetSerialPortOwner</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIGetSource.html'
+                                  title='coremidi_sys::MIDIGetSource'>MIDIGetSource</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIInputPortCreate.html'
+                                  title='coremidi_sys::MIDIInputPortCreate'>MIDIInputPortCreate</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIObjectFindByUniqueID.html'
+                                  title='coremidi_sys::MIDIObjectFindByUniqueID'>MIDIObjectFindByUniqueID</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIObjectGetDataProperty.html'
+                                  title='coremidi_sys::MIDIObjectGetDataProperty'>MIDIObjectGetDataProperty</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIObjectGetDictionaryProperty.html'
+                                  title='coremidi_sys::MIDIObjectGetDictionaryProperty'>MIDIObjectGetDictionaryProperty</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIObjectGetIntegerProperty.html'
+                                  title='coremidi_sys::MIDIObjectGetIntegerProperty'>MIDIObjectGetIntegerProperty</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIObjectGetProperties.html'
+                                  title='coremidi_sys::MIDIObjectGetProperties'>MIDIObjectGetProperties</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIObjectGetStringProperty.html'
+                                  title='coremidi_sys::MIDIObjectGetStringProperty'>MIDIObjectGetStringProperty</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIObjectRemoveProperty.html'
+                                  title='coremidi_sys::MIDIObjectRemoveProperty'>MIDIObjectRemoveProperty</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIObjectSetDataProperty.html'
+                                  title='coremidi_sys::MIDIObjectSetDataProperty'>MIDIObjectSetDataProperty</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIObjectSetDictionaryProperty.html'
+                                  title='coremidi_sys::MIDIObjectSetDictionaryProperty'>MIDIObjectSetDictionaryProperty</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIObjectSetIntegerProperty.html'
+                                  title='coremidi_sys::MIDIObjectSetIntegerProperty'>MIDIObjectSetIntegerProperty</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIObjectSetStringProperty.html'
+                                  title='coremidi_sys::MIDIObjectSetStringProperty'>MIDIObjectSetStringProperty</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIOutputPortCreate.html'
+                                  title='coremidi_sys::MIDIOutputPortCreate'>MIDIOutputPortCreate</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIPacketListAdd.html'
+                                  title='coremidi_sys::MIDIPacketListAdd'>MIDIPacketListAdd</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIPacketListInit.html'
+                                  title='coremidi_sys::MIDIPacketListInit'>MIDIPacketListInit</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIPortConnectSource.html'
+                                  title='coremidi_sys::MIDIPortConnectSource'>MIDIPortConnectSource</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIPortDisconnectSource.html'
+                                  title='coremidi_sys::MIDIPortDisconnectSource'>MIDIPortDisconnectSource</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIPortDispose.html'
+                                  title='coremidi_sys::MIDIPortDispose'>MIDIPortDispose</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIReceived.html'
+                                  title='coremidi_sys::MIDIReceived'>MIDIReceived</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIRestart.html'
+                                  title='coremidi_sys::MIDIRestart'>MIDIRestart</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDISend.html'
+                                  title='coremidi_sys::MIDISend'>MIDISend</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDISendSysex.html'
+                                  title='coremidi_sys::MIDISendSysex'>MIDISendSysex</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDISetSerialPortOwner.html'
+                                  title='coremidi_sys::MIDISetSerialPortOwner'>MIDISetSerialPortOwner</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDISetupAddDevice.html'
+                                  title='coremidi_sys::MIDISetupAddDevice'>MIDISetupAddDevice</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDISetupAddExternalDevice.html'
+                                  title='coremidi_sys::MIDISetupAddExternalDevice'>MIDISetupAddExternalDevice</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDISetupCreate.html'
+                                  title='coremidi_sys::MIDISetupCreate'>MIDISetupCreate</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDISetupDispose.html'
+                                  title='coremidi_sys::MIDISetupDispose'>MIDISetupDispose</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDISetupFromData.html'
+                                  title='coremidi_sys::MIDISetupFromData'>MIDISetupFromData</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDISetupGetCurrent.html'
+                                  title='coremidi_sys::MIDISetupGetCurrent'>MIDISetupGetCurrent</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDISetupInstall.html'
+                                  title='coremidi_sys::MIDISetupInstall'>MIDISetupInstall</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDISetupRemoveDevice.html'
+                                  title='coremidi_sys::MIDISetupRemoveDevice'>MIDISetupRemoveDevice</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDISetupRemoveExternalDevice.html'
+                                  title='coremidi_sys::MIDISetupRemoveExternalDevice'>MIDISetupRemoveExternalDevice</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDISetupToData.html'
+                                  title='coremidi_sys::MIDISetupToData'>MIDISetupToData</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDISourceCreate.html'
+                                  title='coremidi_sys::MIDISourceCreate'>MIDISourceCreate</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIThruConnectionCreate.html'
+                                  title='coremidi_sys::MIDIThruConnectionCreate'>MIDIThruConnectionCreate</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIThruConnectionDispose.html'
+                                  title='coremidi_sys::MIDIThruConnectionDispose'>MIDIThruConnectionDispose</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIThruConnectionFind.html'
+                                  title='coremidi_sys::MIDIThruConnectionFind'>MIDIThruConnectionFind</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIThruConnectionGetParams.html'
+                                  title='coremidi_sys::MIDIThruConnectionGetParams'>MIDIThruConnectionGetParams</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIThruConnectionParamsInitialize.html'
+                                  title='coremidi_sys::MIDIThruConnectionParamsInitialize'>MIDIThruConnectionParamsInitialize</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.MIDIThruConnectionSetParams.html'
+                                  title='coremidi_sys::MIDIThruConnectionSetParams'>MIDIThruConnectionSetParams</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr></table><h2 id='types' class='section-header'><a href="#types">Type Definitions</a></h2>
+<table>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.Byte.html'
+                                  title='coremidi_sys::Byte'>Byte</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.ByteCount.html'
+                                  title='coremidi_sys::ByteCount'>ByteCount</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.CFPropertyListRef.html'
+                                  title='coremidi_sys::CFPropertyListRef'>CFPropertyListRef</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.Enum_Unnamed1.html'
+                                  title='coremidi_sys::Enum_Unnamed1'>Enum_Unnamed1</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.Enum_Unnamed2.html'
+                                  title='coremidi_sys::Enum_Unnamed2'>Enum_Unnamed2</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.Enum_Unnamed3.html'
+                                  title='coremidi_sys::Enum_Unnamed3'>Enum_Unnamed3</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.Enum_Unnamed4.html'
+                                  title='coremidi_sys::Enum_Unnamed4'>Enum_Unnamed4</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.Enum_Unnamed5.html'
+                                  title='coremidi_sys::Enum_Unnamed5'>Enum_Unnamed5</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.Enum_Unnamed6.html'
+                                  title='coremidi_sys::Enum_Unnamed6'>Enum_Unnamed6</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.Enum_Unnamed7.html'
+                                  title='coremidi_sys::Enum_Unnamed7'>Enum_Unnamed7</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.ItemCount.html'
+                                  title='coremidi_sys::ItemCount'>ItemCount</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.MIDIClientRef.html'
+                                  title='coremidi_sys::MIDIClientRef'>MIDIClientRef</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.MIDICompletionProc.html'
+                                  title='coremidi_sys::MIDICompletionProc'>MIDICompletionProc</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.MIDIControlTransform.html'
+                                  title='coremidi_sys::MIDIControlTransform'>MIDIControlTransform</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.MIDIDeviceRef.html'
+                                  title='coremidi_sys::MIDIDeviceRef'>MIDIDeviceRef</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.MIDIEndpointRef.html'
+                                  title='coremidi_sys::MIDIEndpointRef'>MIDIEndpointRef</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.MIDIEntityRef.html'
+                                  title='coremidi_sys::MIDIEntityRef'>MIDIEntityRef</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.MIDIIOErrorNotification.html'
+                                  title='coremidi_sys::MIDIIOErrorNotification'>MIDIIOErrorNotification</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.MIDINotification.html'
+                                  title='coremidi_sys::MIDINotification'>MIDINotification</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.MIDINotificationMessageID.html'
+                                  title='coremidi_sys::MIDINotificationMessageID'>MIDINotificationMessageID</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.MIDINotifyProc.html'
+                                  title='coremidi_sys::MIDINotifyProc'>MIDINotifyProc</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.MIDIObjectAddRemoveNotification.html'
+                                  title='coremidi_sys::MIDIObjectAddRemoveNotification'>MIDIObjectAddRemoveNotification</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.MIDIObjectPropertyChangeNotification.html'
+                                  title='coremidi_sys::MIDIObjectPropertyChangeNotification'>MIDIObjectPropertyChangeNotification</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.MIDIObjectRef.html'
+                                  title='coremidi_sys::MIDIObjectRef'>MIDIObjectRef</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.MIDIObjectType.html'
+                                  title='coremidi_sys::MIDIObjectType'>MIDIObjectType</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.MIDIPacket.html'
+                                  title='coremidi_sys::MIDIPacket'>MIDIPacket</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.MIDIPacketList.html'
+                                  title='coremidi_sys::MIDIPacketList'>MIDIPacketList</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.MIDIPortRef.html'
+                                  title='coremidi_sys::MIDIPortRef'>MIDIPortRef</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.MIDIReadProc.html'
+                                  title='coremidi_sys::MIDIReadProc'>MIDIReadProc</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.MIDISetupRef.html'
+                                  title='coremidi_sys::MIDISetupRef'>MIDISetupRef</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.MIDISysexSendRequest.html'
+                                  title='coremidi_sys::MIDISysexSendRequest'>MIDISysexSendRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.MIDIThruConnectionEndpoint.html'
+                                  title='coremidi_sys::MIDIThruConnectionEndpoint'>MIDIThruConnectionEndpoint</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.MIDIThruConnectionParams.html'
+                                  title='coremidi_sys::MIDIThruConnectionParams'>MIDIThruConnectionParams</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.MIDIThruConnectionRef.html'
+                                  title='coremidi_sys::MIDIThruConnectionRef'>MIDIThruConnectionRef</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.MIDITimeStamp.html'
+                                  title='coremidi_sys::MIDITimeStamp'>MIDITimeStamp</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.MIDITransform.html'
+                                  title='coremidi_sys::MIDITransform'>MIDITransform</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.MIDITransformControlType.html'
+                                  title='coremidi_sys::MIDITransformControlType'>MIDITransformControlType</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.MIDITransformType.html'
+                                  title='coremidi_sys::MIDITransformType'>MIDITransformType</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.MIDIUniqueID.html'
+                                  title='coremidi_sys::MIDIUniqueID'>MIDIUniqueID</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.MIDIValueMap.html'
+                                  title='coremidi_sys::MIDIValueMap'>MIDIValueMap</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.SInt16.html'
+                                  title='coremidi_sys::SInt16'>SInt16</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.SInt32.html'
+                                  title='coremidi_sys::SInt32'>SInt32</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.SInt8.html'
+                                  title='coremidi_sys::SInt8'>SInt8</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.UInt16.html'
+                                  title='coremidi_sys::UInt16'>UInt16</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.UInt32.html'
+                                  title='coremidi_sys::UInt32'>UInt32</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.UInt64.html'
+                                  title='coremidi_sys::UInt64'>UInt64</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='type' href='type.UInt8.html'
+                                  title='coremidi_sys::UInt8'>UInt8</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr></table></section>
+    <section id='search' class="content hidden"></section>
+
+    <section class="footer"></section>
+
+    <aside id="help" class="hidden">
+        <div>
+            <h1 class="hidden">Help</h1>
+
+            <div class="shortcuts">
+                <h2>Keyboard Shortcuts</h2>
+
+                <dl>
+                    <dt>?</dt>
+                    <dd>Show this help dialog</dd>
+                    <dt>S</dt>
+                    <dd>Focus the search field</dd>
+                    <dt>&larrb;</dt>
+                    <dd>Move up in search results</dd>
+                    <dt>&rarrb;</dt>
+                    <dd>Move down in search results</dd>
+                    <dt>&#9166;</dt>
+                    <dd>Go to active search result</dd>
+                    <dt>+</dt>
+                    <dd>Collapse/expand all sections</dd>
+                </dl>
+            </div>
+
+            <div class="infos">
+                <h2>Search Tricks</h2>
+
+                <p>
+                    Prefix searches with a type followed by a colon (e.g.
+                    <code>fn:</code>) to restrict the search to a given type.
+                </p>
+
+                <p>
+                    Accepted types are: <code>fn</code>, <code>mod</code>,
+                    <code>struct</code>, <code>enum</code>,
+                    <code>trait</code>, <code>type</code>, <code>macro</code>,
+                    and <code>const</code>.
+                </p>
+
+                <p>
+                    Search functions by type signature (e.g.
+                    <code>vec -> usize</code> or <code>* -> vec</code>)
+                </p>
+            </div>
+        </div>
+    </aside>
+
+    
+
+    <script>
+        window.rootPath = "../";
+        window.currentCrate = "coremidi_sys";
+    </script>
+    <script src="../jquery.js"></script>
+    <script src="../main.js"></script>
+    <script defer src="../search-index.js"></script>
+</body>
+</html>

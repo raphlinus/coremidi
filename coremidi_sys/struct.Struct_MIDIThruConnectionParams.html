@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="rustdoc">
+    <meta name="description" content="API documentation for the Rust `Struct_MIDIThruConnectionParams` struct in crate `coremidi_sys`.">
+    <meta name="keywords" content="rust, rustlang, rust-lang, Struct_MIDIThruConnectionParams">
+
+    <title>coremidi_sys::Struct_MIDIThruConnectionParams - Rust</title>
+
+    <link rel="stylesheet" type="text/css" href="../rustdoc.css">
+    <link rel="stylesheet" type="text/css" href="../main.css">
+    
+
+    
+    
+</head>
+<body class="rustdoc">
+    <!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+    
+
+    <nav class="sidebar">
+        
+        <p class='location'><a href='index.html'>coremidi_sys</a></p><script>window.sidebarCurrent = {name: 'Struct_MIDIThruConnectionParams', ty: 'struct', relpath: ''};</script><script defer src="sidebar-items.js"></script>
+    </nav>
+
+    <nav class="sub">
+        <form class="search-form js-only">
+            <div class="search-container">
+                <input class="search-input" name="search"
+                       autocomplete="off"
+                       placeholder="Click or press ‘S’ to search, ‘?’ for more options…"
+                       type="search">
+            </div>
+        </form>
+    </nav>
+
+    <section id='main' class="content struct">
+<h1 class='fqn'><span class='in-band'>Struct <a href='index.html'>coremidi_sys</a>::<wbr><a class='struct' href=''>Struct_MIDIThruConnectionParams</a></span><span class='out-of-band'><span id='render-detail'>
+                   <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">
+                       [<span class='inner'>&#x2212;</span>]
+                   </a>
+               </span><a id='src-486' class='srclink' href='../src/coremidi_sys/lib.rs.html#270-296' title='goto source code'>[src]</a></span></h1>
+<pre class='rust struct'>pub struct Struct_MIDIThruConnectionParams {
+    pub version: <a class='type' href='../coremidi_sys/type.UInt32.html' title='coremidi_sys::UInt32'>UInt32</a>,
+    pub numSources: <a class='type' href='../coremidi_sys/type.UInt32.html' title='coremidi_sys::UInt32'>UInt32</a>,
+    pub sources: <a class='primitive' href='https://doc.rust-lang.org/nightly/std/primitive.array.html'>[</a><a class='type' href='../coremidi_sys/type.MIDIThruConnectionEndpoint.html' title='coremidi_sys::MIDIThruConnectionEndpoint'>MIDIThruConnectionEndpoint</a><a class='primitive' href='https://doc.rust-lang.org/nightly/std/primitive.array.html'>; 8]</a>,
+    pub numDestinations: <a class='type' href='../coremidi_sys/type.UInt32.html' title='coremidi_sys::UInt32'>UInt32</a>,
+    pub destinations: <a class='primitive' href='https://doc.rust-lang.org/nightly/std/primitive.array.html'>[</a><a class='type' href='../coremidi_sys/type.MIDIThruConnectionEndpoint.html' title='coremidi_sys::MIDIThruConnectionEndpoint'>MIDIThruConnectionEndpoint</a><a class='primitive' href='https://doc.rust-lang.org/nightly/std/primitive.array.html'>; 8]</a>,
+    pub channelMap: <a class='primitive' href='https://doc.rust-lang.org/nightly/std/primitive.array.html'>[</a><a class='type' href='../coremidi_sys/type.UInt8.html' title='coremidi_sys::UInt8'>UInt8</a><a class='primitive' href='https://doc.rust-lang.org/nightly/std/primitive.array.html'>; 16]</a>,
+    pub lowVelocity: <a class='type' href='../coremidi_sys/type.UInt8.html' title='coremidi_sys::UInt8'>UInt8</a>,
+    pub highVelocity: <a class='type' href='../coremidi_sys/type.UInt8.html' title='coremidi_sys::UInt8'>UInt8</a>,
+    pub lowNote: <a class='type' href='../coremidi_sys/type.UInt8.html' title='coremidi_sys::UInt8'>UInt8</a>,
+    pub highNote: <a class='type' href='../coremidi_sys/type.UInt8.html' title='coremidi_sys::UInt8'>UInt8</a>,
+    pub noteNumber: <a class='type' href='../coremidi_sys/type.MIDITransform.html' title='coremidi_sys::MIDITransform'>MIDITransform</a>,
+    pub velocity: <a class='type' href='../coremidi_sys/type.MIDITransform.html' title='coremidi_sys::MIDITransform'>MIDITransform</a>,
+    pub keyPressure: <a class='type' href='../coremidi_sys/type.MIDITransform.html' title='coremidi_sys::MIDITransform'>MIDITransform</a>,
+    pub channelPressure: <a class='type' href='../coremidi_sys/type.MIDITransform.html' title='coremidi_sys::MIDITransform'>MIDITransform</a>,
+    pub programChange: <a class='type' href='../coremidi_sys/type.MIDITransform.html' title='coremidi_sys::MIDITransform'>MIDITransform</a>,
+    pub pitchBend: <a class='type' href='../coremidi_sys/type.MIDITransform.html' title='coremidi_sys::MIDITransform'>MIDITransform</a>,
+    pub filterOutSysEx: <a class='type' href='../coremidi_sys/type.UInt8.html' title='coremidi_sys::UInt8'>UInt8</a>,
+    pub filterOutMTC: <a class='type' href='../coremidi_sys/type.UInt8.html' title='coremidi_sys::UInt8'>UInt8</a>,
+    pub filterOutBeatClock: <a class='type' href='../coremidi_sys/type.UInt8.html' title='coremidi_sys::UInt8'>UInt8</a>,
+    pub filterOutTuneRequest: <a class='type' href='../coremidi_sys/type.UInt8.html' title='coremidi_sys::UInt8'>UInt8</a>,
+    pub reserved2: <a class='primitive' href='https://doc.rust-lang.org/nightly/std/primitive.array.html'>[</a><a class='type' href='../coremidi_sys/type.UInt8.html' title='coremidi_sys::UInt8'>UInt8</a><a class='primitive' href='https://doc.rust-lang.org/nightly/std/primitive.array.html'>; 3]</a>,
+    pub filterOutAllControls: <a class='type' href='../coremidi_sys/type.UInt8.html' title='coremidi_sys::UInt8'>UInt8</a>,
+    pub numControlTransforms: <a class='type' href='../coremidi_sys/type.UInt16.html' title='coremidi_sys::UInt16'>UInt16</a>,
+    pub numMaps: <a class='type' href='../coremidi_sys/type.UInt16.html' title='coremidi_sys::UInt16'>UInt16</a>,
+    pub reserved3: <a class='primitive' href='https://doc.rust-lang.org/nightly/std/primitive.array.html'>[</a><a class='type' href='../coremidi_sys/type.UInt16.html' title='coremidi_sys::UInt16'>UInt16</a><a class='primitive' href='https://doc.rust-lang.org/nightly/std/primitive.array.html'>; 4]</a>,
+}</pre><h2 class='fields'>Fields</h2><span id='structfield.version' class='structfield'>
+                           <span id='version.v' class='invisible'>
+                           <code>version: <a class='type' href='../coremidi_sys/type.UInt32.html' title='coremidi_sys::UInt32'>UInt32</a></code>
+                           </span></span><span class='stab '></span><span id='structfield.numSources' class='structfield'>
+                           <span id='numSources.v' class='invisible'>
+                           <code>numSources: <a class='type' href='../coremidi_sys/type.UInt32.html' title='coremidi_sys::UInt32'>UInt32</a></code>
+                           </span></span><span class='stab '></span><span id='structfield.sources' class='structfield'>
+                           <span id='sources.v' class='invisible'>
+                           <code>sources: <a class='primitive' href='https://doc.rust-lang.org/nightly/std/primitive.array.html'>[</a><a class='type' href='../coremidi_sys/type.MIDIThruConnectionEndpoint.html' title='coremidi_sys::MIDIThruConnectionEndpoint'>MIDIThruConnectionEndpoint</a><a class='primitive' href='https://doc.rust-lang.org/nightly/std/primitive.array.html'>; 8]</a></code>
+                           </span></span><span class='stab '></span><span id='structfield.numDestinations' class='structfield'>
+                           <span id='numDestinations.v' class='invisible'>
+                           <code>numDestinations: <a class='type' href='../coremidi_sys/type.UInt32.html' title='coremidi_sys::UInt32'>UInt32</a></code>
+                           </span></span><span class='stab '></span><span id='structfield.destinations' class='structfield'>
+                           <span id='destinations.v' class='invisible'>
+                           <code>destinations: <a class='primitive' href='https://doc.rust-lang.org/nightly/std/primitive.array.html'>[</a><a class='type' href='../coremidi_sys/type.MIDIThruConnectionEndpoint.html' title='coremidi_sys::MIDIThruConnectionEndpoint'>MIDIThruConnectionEndpoint</a><a class='primitive' href='https://doc.rust-lang.org/nightly/std/primitive.array.html'>; 8]</a></code>
+                           </span></span><span class='stab '></span><span id='structfield.channelMap' class='structfield'>
+                           <span id='channelMap.v' class='invisible'>
+                           <code>channelMap: <a class='primitive' href='https://doc.rust-lang.org/nightly/std/primitive.array.html'>[</a><a class='type' href='../coremidi_sys/type.UInt8.html' title='coremidi_sys::UInt8'>UInt8</a><a class='primitive' href='https://doc.rust-lang.org/nightly/std/primitive.array.html'>; 16]</a></code>
+                           </span></span><span class='stab '></span><span id='structfield.lowVelocity' class='structfield'>
+                           <span id='lowVelocity.v' class='invisible'>
+                           <code>lowVelocity: <a class='type' href='../coremidi_sys/type.UInt8.html' title='coremidi_sys::UInt8'>UInt8</a></code>
+                           </span></span><span class='stab '></span><span id='structfield.highVelocity' class='structfield'>
+                           <span id='highVelocity.v' class='invisible'>
+                           <code>highVelocity: <a class='type' href='../coremidi_sys/type.UInt8.html' title='coremidi_sys::UInt8'>UInt8</a></code>
+                           </span></span><span class='stab '></span><span id='structfield.lowNote' class='structfield'>
+                           <span id='lowNote.v' class='invisible'>
+                           <code>lowNote: <a class='type' href='../coremidi_sys/type.UInt8.html' title='coremidi_sys::UInt8'>UInt8</a></code>
+                           </span></span><span class='stab '></span><span id='structfield.highNote' class='structfield'>
+                           <span id='highNote.v' class='invisible'>
+                           <code>highNote: <a class='type' href='../coremidi_sys/type.UInt8.html' title='coremidi_sys::UInt8'>UInt8</a></code>
+                           </span></span><span class='stab '></span><span id='structfield.noteNumber' class='structfield'>
+                           <span id='noteNumber.v' class='invisible'>
+                           <code>noteNumber: <a class='type' href='../coremidi_sys/type.MIDITransform.html' title='coremidi_sys::MIDITransform'>MIDITransform</a></code>
+                           </span></span><span class='stab '></span><span id='structfield.velocity' class='structfield'>
+                           <span id='velocity.v' class='invisible'>
+                           <code>velocity: <a class='type' href='../coremidi_sys/type.MIDITransform.html' title='coremidi_sys::MIDITransform'>MIDITransform</a></code>
+                           </span></span><span class='stab '></span><span id='structfield.keyPressure' class='structfield'>
+                           <span id='keyPressure.v' class='invisible'>
+                           <code>keyPressure: <a class='type' href='../coremidi_sys/type.MIDITransform.html' title='coremidi_sys::MIDITransform'>MIDITransform</a></code>
+                           </span></span><span class='stab '></span><span id='structfield.channelPressure' class='structfield'>
+                           <span id='channelPressure.v' class='invisible'>
+                           <code>channelPressure: <a class='type' href='../coremidi_sys/type.MIDITransform.html' title='coremidi_sys::MIDITransform'>MIDITransform</a></code>
+                           </span></span><span class='stab '></span><span id='structfield.programChange' class='structfield'>
+                           <span id='programChange.v' class='invisible'>
+                           <code>programChange: <a class='type' href='../coremidi_sys/type.MIDITransform.html' title='coremidi_sys::MIDITransform'>MIDITransform</a></code>
+                           </span></span><span class='stab '></span><span id='structfield.pitchBend' class='structfield'>
+                           <span id='pitchBend.v' class='invisible'>
+                           <code>pitchBend: <a class='type' href='../coremidi_sys/type.MIDITransform.html' title='coremidi_sys::MIDITransform'>MIDITransform</a></code>
+                           </span></span><span class='stab '></span><span id='structfield.filterOutSysEx' class='structfield'>
+                           <span id='filterOutSysEx.v' class='invisible'>
+                           <code>filterOutSysEx: <a class='type' href='../coremidi_sys/type.UInt8.html' title='coremidi_sys::UInt8'>UInt8</a></code>
+                           </span></span><span class='stab '></span><span id='structfield.filterOutMTC' class='structfield'>
+                           <span id='filterOutMTC.v' class='invisible'>
+                           <code>filterOutMTC: <a class='type' href='../coremidi_sys/type.UInt8.html' title='coremidi_sys::UInt8'>UInt8</a></code>
+                           </span></span><span class='stab '></span><span id='structfield.filterOutBeatClock' class='structfield'>
+                           <span id='filterOutBeatClock.v' class='invisible'>
+                           <code>filterOutBeatClock: <a class='type' href='../coremidi_sys/type.UInt8.html' title='coremidi_sys::UInt8'>UInt8</a></code>
+                           </span></span><span class='stab '></span><span id='structfield.filterOutTuneRequest' class='structfield'>
+                           <span id='filterOutTuneRequest.v' class='invisible'>
+                           <code>filterOutTuneRequest: <a class='type' href='../coremidi_sys/type.UInt8.html' title='coremidi_sys::UInt8'>UInt8</a></code>
+                           </span></span><span class='stab '></span><span id='structfield.reserved2' class='structfield'>
+                           <span id='reserved2.v' class='invisible'>
+                           <code>reserved2: <a class='primitive' href='https://doc.rust-lang.org/nightly/std/primitive.array.html'>[</a><a class='type' href='../coremidi_sys/type.UInt8.html' title='coremidi_sys::UInt8'>UInt8</a><a class='primitive' href='https://doc.rust-lang.org/nightly/std/primitive.array.html'>; 3]</a></code>
+                           </span></span><span class='stab '></span><span id='structfield.filterOutAllControls' class='structfield'>
+                           <span id='filterOutAllControls.v' class='invisible'>
+                           <code>filterOutAllControls: <a class='type' href='../coremidi_sys/type.UInt8.html' title='coremidi_sys::UInt8'>UInt8</a></code>
+                           </span></span><span class='stab '></span><span id='structfield.numControlTransforms' class='structfield'>
+                           <span id='numControlTransforms.v' class='invisible'>
+                           <code>numControlTransforms: <a class='type' href='../coremidi_sys/type.UInt16.html' title='coremidi_sys::UInt16'>UInt16</a></code>
+                           </span></span><span class='stab '></span><span id='structfield.numMaps' class='structfield'>
+                           <span id='numMaps.v' class='invisible'>
+                           <code>numMaps: <a class='type' href='../coremidi_sys/type.UInt16.html' title='coremidi_sys::UInt16'>UInt16</a></code>
+                           </span></span><span class='stab '></span><span id='structfield.reserved3' class='structfield'>
+                           <span id='reserved3.v' class='invisible'>
+                           <code>reserved3: <a class='primitive' href='https://doc.rust-lang.org/nightly/std/primitive.array.html'>[</a><a class='type' href='../coremidi_sys/type.UInt16.html' title='coremidi_sys::UInt16'>UInt16</a><a class='primitive' href='https://doc.rust-lang.org/nightly/std/primitive.array.html'>; 4]</a></code>
+                           </span></span><span class='stab '></span><h2 id='implementations'>Trait Implementations</h2><h3 class='impl'><span class='in-band'><code>impl <a class='trait' href='https://doc.rust-lang.org/nightly/core/marker/trait.Copy.html' title='core::marker::Copy'>Copy</a> for <a class='struct' href='../coremidi_sys/struct.Struct_MIDIThruConnectionParams.html' title='coremidi_sys::Struct_MIDIThruConnectionParams'>Struct_MIDIThruConnectionParams</a></code></span><span class='out-of-band'><div class='ghost'></div><a id='src-517' class='srclink' href='../src/coremidi_sys/lib.rs.html#269' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'></div><h3 class='impl'><span class='in-band'><code>impl <a class='trait' href='https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html' title='core::clone::Clone'>Clone</a> for <a class='struct' href='../coremidi_sys/struct.Struct_MIDIThruConnectionParams.html' title='coremidi_sys::Struct_MIDIThruConnectionParams'>Struct_MIDIThruConnectionParams</a></code></span><span class='out-of-band'><div class='ghost'></div><a id='src-166' class='srclink' href='../src/coremidi_sys/lib.rs.html#297-299' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='method.clone' class='method'><span id='clone.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#tymethod.clone' class='fnname'>clone</a>(&amp;self) -&gt; Self</code></span></h4>
+<div class='docblock'><p>Returns a copy of the value. <a href="https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#tymethod.clone">Read more</a></p>
+</div><h4 id='method.clone_from' class='method'><span id='clone_from.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#method.clone_from' class='fnname'>clone_from</a>(&amp;mut self, source: &amp;Self)</code><div class='since' title='Stable since Rust version 1.0.0'>1.0.0</div></span></h4>
+<div class='docblock'><p>Performs copy-assignment from <code>source</code>. <a href="https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#method.clone_from">Read more</a></p>
+</div></div><h3 class='impl'><span class='in-band'><code>impl <a class='trait' href='https://doc.rust-lang.org/nightly/core/default/trait.Default.html' title='core::default::Default'>Default</a> for <a class='struct' href='../coremidi_sys/struct.Struct_MIDIThruConnectionParams.html' title='coremidi_sys::Struct_MIDIThruConnectionParams'>Struct_MIDIThruConnectionParams</a></code></span><span class='out-of-band'><div class='ghost'></div><a id='src-169' class='srclink' href='../src/coremidi_sys/lib.rs.html#300-302' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='method.default' class='method'><span id='default.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/default/trait.Default.html#tymethod.default' class='fnname'>default</a>() -&gt; Self</code></span></h4>
+<div class='docblock'><p>Returns the &quot;default value&quot; for a type. <a href="https://doc.rust-lang.org/nightly/core/default/trait.Default.html#tymethod.default">Read more</a></p>
+</div></div></section>
+    <section id='search' class="content hidden"></section>
+
+    <section class="footer"></section>
+
+    <aside id="help" class="hidden">
+        <div>
+            <h1 class="hidden">Help</h1>
+
+            <div class="shortcuts">
+                <h2>Keyboard Shortcuts</h2>
+
+                <dl>
+                    <dt>?</dt>
+                    <dd>Show this help dialog</dd>
+                    <dt>S</dt>
+                    <dd>Focus the search field</dd>
+                    <dt>&larrb;</dt>
+                    <dd>Move up in search results</dd>
+                    <dt>&rarrb;</dt>
+                    <dd>Move down in search results</dd>
+                    <dt>&#9166;</dt>
+                    <dd>Go to active search result</dd>
+                    <dt>+</dt>
+                    <dd>Collapse/expand all sections</dd>
+                </dl>
+            </div>
+
+            <div class="infos">
+                <h2>Search Tricks</h2>
+
+                <p>
+                    Prefix searches with a type followed by a colon (e.g.
+                    <code>fn:</code>) to restrict the search to a given type.
+                </p>
+
+                <p>
+                    Accepted types are: <code>fn</code>, <code>mod</code>,
+                    <code>struct</code>, <code>enum</code>,
+                    <code>trait</code>, <code>type</code>, <code>macro</code>,
+                    and <code>const</code>.
+                </p>
+
+                <p>
+                    Search functions by type signature (e.g.
+                    <code>vec -> usize</code> or <code>* -> vec</code>)
+                </p>
+            </div>
+        </div>
+    </aside>
+
+    
+
+    <script>
+        window.rootPath = "../";
+        window.currentCrate = "coremidi_sys";
+    </script>
+    <script src="../jquery.js"></script>
+    <script src="../main.js"></script>
+    <script defer src="../search-index.js"></script>
+</body>
+</html>

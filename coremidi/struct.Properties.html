@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="rustdoc">
+    <meta name="description" content="API documentation for the Rust `Properties` struct in crate `coremidi`.">
+    <meta name="keywords" content="rust, rustlang, rust-lang, Properties">
+
+    <title>coremidi::Properties - Rust</title>
+
+    <link rel="stylesheet" type="text/css" href="../rustdoc.css">
+    <link rel="stylesheet" type="text/css" href="../main.css">
+    
+
+    
+    
+</head>
+<body class="rustdoc">
+    <!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+    
+
+    <nav class="sidebar">
+        
+        <p class='location'><a href='index.html'>coremidi</a></p><script>window.sidebarCurrent = {name: 'Properties', ty: 'struct', relpath: ''};</script><script defer src="sidebar-items.js"></script>
+    </nav>
+
+    <nav class="sub">
+        <form class="search-form js-only">
+            <div class="search-container">
+                <input class="search-input" name="search"
+                       autocomplete="off"
+                       placeholder="Click or press ‘S’ to search, ‘?’ for more options…"
+                       type="search">
+            </div>
+        </form>
+    </nav>
+
+    <section id='main' class="content struct">
+<h1 class='fqn'><span class='in-band'>Struct <a href='index.html'>coremidi</a>::<wbr><a class='struct' href=''>Properties</a></span><span class='out-of-band'><span id='render-detail'>
+                   <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">
+                       [<span class='inner'>&#x2212;</span>]
+                   </a>
+               </span><a id='src-448' class='srclink' href='../src/coremidi/src/properties.rs.html#115' title='goto source code'>[src]</a></span></h1>
+<pre class='rust struct'>pub struct Properties;</pre><div class='docblock'><p>The set of properties that might be available for MIDI objects.</p>
+</div><h2 id='methods'>Methods</h2><h3 class='impl'><span class='in-band'><code>impl <a class='struct' href='../coremidi/struct.Properties.html' title='coremidi::Properties'>Properties</a></code></span><span class='out-of-band'><div class='ghost'></div><a id='src-450' class='srclink' href='../src/coremidi/src/properties.rs.html#117-206' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='method.name' class='method'><span id='name.v' class='invisible'><code>fn <a href='#method.name' class='fnname'>name</a>() -&gt; StringProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kmidipropertyname">kMIDIPropertyName</a></p>
+</div><h4 id='method.manufacturer' class='method'><span id='manufacturer.v' class='invisible'><code>fn <a href='#method.manufacturer' class='fnname'>manufacturer</a>() -&gt; StringProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kmidipropertymanufacturer">kMIDIPropertyManufacturer</a></p>
+</div><h4 id='method.model' class='method'><span id='model.v' class='invisible'><code>fn <a href='#method.model' class='fnname'>model</a>() -&gt; StringProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kmidipropertymodel">kMIDIPropertyModel</a></p>
+</div><h4 id='method.unique_id' class='method'><span id='unique_id.v' class='invisible'><code>fn <a href='#method.unique_id' class='fnname'>unique_id</a>() -&gt; IntegerProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kmidipropertyuniqueid">kMIDIPropertyUniqueID</a></p>
+</div><h4 id='method.device_id' class='method'><span id='device_id.v' class='invisible'><code>fn <a href='#method.device_id' class='fnname'>device_id</a>() -&gt; IntegerProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kmidipropertydeviceid">kMIDIPropertyDeviceID</a></p>
+</div><h4 id='method.receive_channels' class='method'><span id='receive_channels.v' class='invisible'><code>fn <a href='#method.receive_channels' class='fnname'>receive_channels</a>() -&gt; IntegerProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kmidipropertyreceivechannels">kMIDIPropertyReceiveChannels</a></p>
+</div><h4 id='method.transmit_channels' class='method'><span id='transmit_channels.v' class='invisible'><code>fn <a href='#method.transmit_channels' class='fnname'>transmit_channels</a>() -&gt; IntegerProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kmidipropertytransmitchannels">kMIDIPropertyTransmitChannels</a></p>
+</div><h4 id='method.max_sysex_speed' class='method'><span id='max_sysex_speed.v' class='invisible'><code>fn <a href='#method.max_sysex_speed' class='fnname'>max_sysex_speed</a>() -&gt; IntegerProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kmidipropertymaxsysexspeed">kMIDIPropertyMaxSysExSpeed</a></p>
+</div><h4 id='method.advance_schedule_time_musec' class='method'><span id='advance_schedule_time_musec.v' class='invisible'><code>fn <a href='#method.advance_schedule_time_musec' class='fnname'>advance_schedule_time_musec</a>() -&gt; IntegerProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertyAdvanceScheduleTimeMuSec">kMIDIPropertyAdvanceScheduleTimeMuSec</a></p>
+</div><h4 id='method.is_embedded_entity' class='method'><span id='is_embedded_entity.v' class='invisible'><code>fn <a href='#method.is_embedded_entity' class='fnname'>is_embedded_entity</a>() -&gt; BooleanProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertyIsEmbeddedEntity">kMIDIPropertyIsEmbeddedEntity</a></p>
+</div><h4 id='method.is_broadcast' class='method'><span id='is_broadcast.v' class='invisible'><code>fn <a href='#method.is_broadcast' class='fnname'>is_broadcast</a>() -&gt; BooleanProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertyIsBroadcast">kMIDIPropertyIsBroadcast</a></p>
+</div><h4 id='method.single_realtime_entity' class='method'><span id='single_realtime_entity.v' class='invisible'><code>fn <a href='#method.single_realtime_entity' class='fnname'>single_realtime_entity</a>() -&gt; IntegerProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertySingleRealtimeEntity">kMIDIPropertySingleRealtimeEntity</a></p>
+</div><h4 id='method.connection_unique_id' class='method'><span id='connection_unique_id.v' class='invisible'><code>fn <a href='#method.connection_unique_id' class='fnname'>connection_unique_id</a>() -&gt; IntegerProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertyConnectionUniqueID">kMIDIPropertyConnectionUniqueID</a></p>
+</div><h4 id='method.offline' class='method'><span id='offline.v' class='invisible'><code>fn <a href='#method.offline' class='fnname'>offline</a>() -&gt; BooleanProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertyOffline">kMIDIPropertyOffline</a></p>
+</div><h4 id='method.private' class='method'><span id='private.v' class='invisible'><code>fn <a href='#method.private' class='fnname'>private</a>() -&gt; BooleanProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertyPrivate">kMIDIPropertyPrivate</a></p>
+</div><h4 id='method.driver_owner' class='method'><span id='driver_owner.v' class='invisible'><code>fn <a href='#method.driver_owner' class='fnname'>driver_owner</a>() -&gt; StringProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertyDriverOwner">kMIDIPropertyDriverOwner</a></p>
+</div><h4 id='method.driver_version' class='method'><span id='driver_version.v' class='invisible'><code>fn <a href='#method.driver_version' class='fnname'>driver_version</a>() -&gt; IntegerProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertyDriverVersion">kMIDIPropertyDriverVersion</a></p>
+</div><h4 id='method.supports_general_midi' class='method'><span id='supports_general_midi.v' class='invisible'><code>fn <a href='#method.supports_general_midi' class='fnname'>supports_general_midi</a>() -&gt; BooleanProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertySupportsGeneralMIDI">kMIDIPropertySupportsGeneralMIDI</a></p>
+</div><h4 id='method.supports_mmc' class='method'><span id='supports_mmc.v' class='invisible'><code>fn <a href='#method.supports_mmc' class='fnname'>supports_mmc</a>() -&gt; BooleanProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertySupportsMMC">kMIDIPropertySupportsMMC</a></p>
+</div><h4 id='method.can_route' class='method'><span id='can_route.v' class='invisible'><code>fn <a href='#method.can_route' class='fnname'>can_route</a>() -&gt; BooleanProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertyCanRoute">kMIDIPropertyCanRoute</a></p>
+</div><h4 id='method.receives_clock' class='method'><span id='receives_clock.v' class='invisible'><code>fn <a href='#method.receives_clock' class='fnname'>receives_clock</a>() -&gt; BooleanProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertyReceivesClock">kMIDIPropertyReceivesClock</a></p>
+</div><h4 id='method.receives_mtc' class='method'><span id='receives_mtc.v' class='invisible'><code>fn <a href='#method.receives_mtc' class='fnname'>receives_mtc</a>() -&gt; BooleanProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertyReceivesMTC">kMIDIPropertyReceivesMTC</a></p>
+</div><h4 id='method.receives_notes' class='method'><span id='receives_notes.v' class='invisible'><code>fn <a href='#method.receives_notes' class='fnname'>receives_notes</a>() -&gt; BooleanProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertyReceivesNotes">kMIDIPropertyReceivesNotes</a></p>
+</div><h4 id='method.receives_program_changes' class='method'><span id='receives_program_changes.v' class='invisible'><code>fn <a href='#method.receives_program_changes' class='fnname'>receives_program_changes</a>() -&gt; BooleanProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertyReceivesProgramChanges">kMIDIPropertyReceivesProgramChanges</a></p>
+</div><h4 id='method.receives_bank_select_msb' class='method'><span id='receives_bank_select_msb.v' class='invisible'><code>fn <a href='#method.receives_bank_select_msb' class='fnname'>receives_bank_select_msb</a>() -&gt; BooleanProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertyReceivesBankSelectMSB">kMIDIPropertyReceivesBankSelectMSB</a></p>
+</div><h4 id='method.receives_bank_select_lsb' class='method'><span id='receives_bank_select_lsb.v' class='invisible'><code>fn <a href='#method.receives_bank_select_lsb' class='fnname'>receives_bank_select_lsb</a>() -&gt; BooleanProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertyReceivesBankSelectLSB">kMIDIPropertyReceivesBankSelectLSB</a></p>
+</div><h4 id='method.transmits_bank_select_msb' class='method'><span id='transmits_bank_select_msb.v' class='invisible'><code>fn <a href='#method.transmits_bank_select_msb' class='fnname'>transmits_bank_select_msb</a>() -&gt; BooleanProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertyTransmitsBankSelectMSB">kMIDIPropertyTransmitsBankSelectMSB</a></p>
+</div><h4 id='method.transmits_bank_select_lsb' class='method'><span id='transmits_bank_select_lsb.v' class='invisible'><code>fn <a href='#method.transmits_bank_select_lsb' class='fnname'>transmits_bank_select_lsb</a>() -&gt; BooleanProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertyTransmitsBankSelectLSB">kMIDIPropertyTransmitsBankSelectLSB</a></p>
+</div><h4 id='method.transmits_clock' class='method'><span id='transmits_clock.v' class='invisible'><code>fn <a href='#method.transmits_clock' class='fnname'>transmits_clock</a>() -&gt; BooleanProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertyTransmitsClock">kMIDIPropertyTransmitsClock</a></p>
+</div><h4 id='method.transmits_mtc' class='method'><span id='transmits_mtc.v' class='invisible'><code>fn <a href='#method.transmits_mtc' class='fnname'>transmits_mtc</a>() -&gt; BooleanProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertyTransmitsMTC">kMIDIPropertyTransmitsMTC</a></p>
+</div><h4 id='method.transmits_notes' class='method'><span id='transmits_notes.v' class='invisible'><code>fn <a href='#method.transmits_notes' class='fnname'>transmits_notes</a>() -&gt; BooleanProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertyTransmitsNotes">kMIDIPropertyTransmitsNotes</a></p>
+</div><h4 id='method.transmits_program_changes' class='method'><span id='transmits_program_changes.v' class='invisible'><code>fn <a href='#method.transmits_program_changes' class='fnname'>transmits_program_changes</a>() -&gt; BooleanProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertyTransmitsProgramChanges">kMIDIPropertyTransmitsProgramChanges</a></p>
+</div><h4 id='method.pan_disrupts_stereo' class='method'><span id='pan_disrupts_stereo.v' class='invisible'><code>fn <a href='#method.pan_disrupts_stereo' class='fnname'>pan_disrupts_stereo</a>() -&gt; BooleanProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertyPanDisruptsStereo">kMIDIPropertyPanDisruptsStereo</a></p>
+</div><h4 id='method.is_sampler' class='method'><span id='is_sampler.v' class='invisible'><code>fn <a href='#method.is_sampler' class='fnname'>is_sampler</a>() -&gt; BooleanProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertyIsSampler">kMIDIPropertyIsSampler</a></p>
+</div><h4 id='method.is_drum_machine' class='method'><span id='is_drum_machine.v' class='invisible'><code>fn <a href='#method.is_drum_machine' class='fnname'>is_drum_machine</a>() -&gt; BooleanProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertyIsDrumMachine">kMIDIPropertyIsDrumMachine</a></p>
+</div><h4 id='method.is_mixer' class='method'><span id='is_mixer.v' class='invisible'><code>fn <a href='#method.is_mixer' class='fnname'>is_mixer</a>() -&gt; BooleanProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertyIsMixer">kMIDIPropertyIsMixer</a></p>
+</div><h4 id='method.is_effect_unit' class='method'><span id='is_effect_unit.v' class='invisible'><code>fn <a href='#method.is_effect_unit' class='fnname'>is_effect_unit</a>() -&gt; BooleanProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertyIsEffectUnit">kMIDIPropertyIsEffectUnit</a></p>
+</div><h4 id='method.max_receive_channels' class='method'><span id='max_receive_channels.v' class='invisible'><code>fn <a href='#method.max_receive_channels' class='fnname'>max_receive_channels</a>() -&gt; IntegerProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertyMaxReceiveChannels">kMIDIPropertyMaxReceiveChannels</a></p>
+</div><h4 id='method.max_transmit_channels' class='method'><span id='max_transmit_channels.v' class='invisible'><code>fn <a href='#method.max_transmit_channels' class='fnname'>max_transmit_channels</a>() -&gt; IntegerProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertyMaxTransmitChannels">kMIDIPropertyMaxTransmitChannels</a></p>
+</div><h4 id='method.driver_device_editor_app' class='method'><span id='driver_device_editor_app.v' class='invisible'><code>fn <a href='#method.driver_device_editor_app' class='fnname'>driver_device_editor_app</a>() -&gt; StringProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertyDriverDeviceEditorApp">kMIDIPropertyDriverDeviceEditorApp</a></p>
+</div><h4 id='method.supports_show_control' class='method'><span id='supports_show_control.v' class='invisible'><code>fn <a href='#method.supports_show_control' class='fnname'>supports_show_control</a>() -&gt; BooleanProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertySupportsShowControl">kMIDIPropertySupportsShowControl</a></p>
+</div><h4 id='method.display_name' class='method'><span id='display_name.v' class='invisible'><code>fn <a href='#method.display_name' class='fnname'>display_name</a>() -&gt; StringProperty</code></span></h4>
+<div class='docblock'><p>See <a href="https://developer.apple.com/reference/coremidi/kMIDIPropertyDisplayName">kMIDIPropertyDisplayName</a></p>
+</div></div></section>
+    <section id='search' class="content hidden"></section>
+
+    <section class="footer"></section>
+
+    <aside id="help" class="hidden">
+        <div>
+            <h1 class="hidden">Help</h1>
+
+            <div class="shortcuts">
+                <h2>Keyboard Shortcuts</h2>
+
+                <dl>
+                    <dt>?</dt>
+                    <dd>Show this help dialog</dd>
+                    <dt>S</dt>
+                    <dd>Focus the search field</dd>
+                    <dt>&larrb;</dt>
+                    <dd>Move up in search results</dd>
+                    <dt>&rarrb;</dt>
+                    <dd>Move down in search results</dd>
+                    <dt>&#9166;</dt>
+                    <dd>Go to active search result</dd>
+                    <dt>+</dt>
+                    <dd>Collapse/expand all sections</dd>
+                </dl>
+            </div>
+
+            <div class="infos">
+                <h2>Search Tricks</h2>
+
+                <p>
+                    Prefix searches with a type followed by a colon (e.g.
+                    <code>fn:</code>) to restrict the search to a given type.
+                </p>
+
+                <p>
+                    Accepted types are: <code>fn</code>, <code>mod</code>,
+                    <code>struct</code>, <code>enum</code>,
+                    <code>trait</code>, <code>type</code>, <code>macro</code>,
+                    and <code>const</code>.
+                </p>
+
+                <p>
+                    Search functions by type signature (e.g.
+                    <code>vec -> usize</code> or <code>* -> vec</code>)
+                </p>
+            </div>
+        </div>
+    </aside>
+
+    
+
+    <script>
+        window.rootPath = "../";
+        window.currentCrate = "coremidi";
+    </script>
+    <script src="../jquery.js"></script>
+    <script src="../main.js"></script>
+    <script defer src="../search-index.js"></script>
+</body>
+</html>
